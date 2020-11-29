@@ -1,0 +1,103 @@
+body{
+  text-align: center;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#wolf{
+  height:300px;
+  border:solid;
+  padding:5px;
+  border-color: white;
+}
+#bio{
+  font-size:22px;
+  font-weight: bold;
+  background: white;
+  border: solid;
+  padding:10px;
+  border-color: white;
+}
+#line{
+  width:100px;
+  height:10px;
+  background: white;
+}
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    position: sticky;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.links:hover{
+    background-color: skyblue;
+}
+.image{
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid;
+    padding: 5px
+}
+.paragraph{
+    color: darkcyan;
+}
+.paragraph:hover{
+    background-color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
+}
+.line{
+    height: 8px;
+    background-color: cadetblue; 
+    width: 200px
+}
+#contact{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+#favorite_art{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+#inspiration{
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+#videos{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+#my_work{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+#videos{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    transition: transform.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
+   
